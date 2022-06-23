@@ -13,10 +13,6 @@ body {
 }
 
 #page1 {
-  z-index: 4;
-}
-
-#page1 {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 2fr 1fr;
@@ -29,6 +25,8 @@ body {
   width: 100%;
   background: #131111;
   color: #f0ebe4;
+  overflow: hidden;
+  z-index: 4;
 }
 
 .title {

@@ -2,5 +2,34 @@
   margin-top: 10vh;
   height: 90vh;
   z-index: 6;
+  font-family: "Prata", serif;
+  color: #131111;
+}
+
+#page2 .content-m {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+}
+
+#page2 .content-m p {
+  font-size: 22px;
+}
+
+#page2 .content-m .left-content-m {
+  padding-right: 30px;
+}
+
+#page2 .title-2 {
+  font-size: 38px;
+  padding-left: 50px;
+  padding-top: 15px;
 }
 /*# sourceMappingURL=about.css.map */

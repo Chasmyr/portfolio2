@@ -8,11 +8,7 @@ body {
     padding: 3vmin;
     background: #f0ebe4;
 }
-  
-#page1 {
-    z-index: 4;
-}
-  
+
 #page1 {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -22,6 +18,8 @@ body {
     width: 100%;
     background: #131111;
     color: #f0ebe4;
+    overflow:hidden;
+    z-index: 4;
 }
 .title {
     font-family: "Prata", serif;
@@ -29,7 +27,6 @@ body {
     grid-column: 1 / -1;
     grid-row: 1;
     padding-bottom: 15vh;
-  
     font-size: 8vw;
     width: 100%;
     z-index: 2;
@@ -112,9 +109,7 @@ body {
     grid-column: 2;
     margin-left: -2rem;
     opacity: 0.7;
-  
     animation: image-in 1s cubic-bezier(0.5, 0, 0.1, 1) 2s backwards;
-  
     @keyframes image-in {
       from {
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);

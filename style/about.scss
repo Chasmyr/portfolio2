@@ -2,4 +2,24 @@
     margin-top: 10vh;
     height: 90vh;
     z-index: 6;
+    font-family: "Prata", serif;
+    color: #131111;
+    .content-m {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        p {
+            font-size: 22px;
+        }
+        .left-content-m {
+            padding-right: 30px;
+        }
+        
+    }
+    .title-2 {
+        font-size: 38px;
+        padding-left: 50px;
+        padding-top: 15px;
+    }
 }
