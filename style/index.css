@@ -9,7 +9,7 @@ body {
   display: -ms-grid;
   display: grid;
   padding: 3vmin;
-  background: #d0d1d3;
+  background: #f0ebe4;
 }
 
 #page1 {
@@ -27,8 +27,8 @@ body {
   padding-bottom: 4vmin;
   height: 90vh;
   width: 100%;
-  background: #0F0E0E;
-  color: #ede8e2;
+  background: #131111;
+  color: #f0ebe4;
 }
 
 .title {
