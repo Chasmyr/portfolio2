@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>LoL Planner</title>
+        <link rel="stylesheet" href="stylePaint.css">
+        
+    </head>
+    <body>
+        <section class="nav">
+
+        </section>
+        <section class="content">
+            <div class="app">
+                <div class="controls">
+                    <div class="title">Sketch</div>
+                
+                    <div class="type">
+                        <input type="radio" name="pen-type" id="click" checked>
+                        <label for="click">
+                            <i class="fa fa-mouse-pointer"></i>
+                        </label>
+
+                        <input type="radio" name="pen-type" id="pen">
+                        <label for="pen">
+                            <i class="fa fa-pencil"></i>
+                        </label>
+
+                        
+                    </div>
+                    <div class="size">
+                        <label for="pen-size">Size</label>
+                        <input type="range" name="pen-size" id="pen-size" min="1" max="10" value="3">
+                    </div>
+                    <div class="color">
+                        <label for="pen-color">Color</label>
+                        <input type="color" name="pen-color" id="pen-color" value="#7883ff">
+                    </div>
+                    <div class="actions">
+                        <button id="reset-canvas">Reset</button>
+                        <button id="save-canvas">Save</button>
+                    </div>
+                </div>
+                <div id="img-wrapper">
+                </div>
+            </div>
+                
+        </section>
+
+        <script src="https://use.fontawesome.com/20df1480dd.js"></script>
+        <script src="./p5/p5.min.js"></script>
+        <script src="./script/paint.js"></script>
+    </body>
+</html>
