@@ -129,4 +129,22 @@ body {
 #page1:active * {
     animation: none !important;
 }
-  
+@media screen and (max-width: 1440px ){
+  .image {
+    img {
+      height: 90vh;
+    }
+  }
+}
+@media screen and (max-width: 1366px ) {
+  .image {
+    img {
+      height: auto;
+    }
+  }
+  #page1 {
+    padding-bottom: 0;
+    height: 78vh;
+    margin-top: 50px;
+  }
+}

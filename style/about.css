@@ -32,4 +32,16 @@
   padding-left: 50px;
   padding-top: 15px;
 }
+
+@media screen and (max-width: 1440px) {
+  #page2 .content-m p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  #page2 .title-2 h2 {
+    margin-bottom: 0;
+  }
+}
 /*# sourceMappingURL=about.css.map */
